@@ -28,6 +28,45 @@ The dataset has the following columns:
 
 ---
 
+## 🧪 Project Workflow and Code Description
+
+The notebook follows these major steps:
+
+### 1. **Data Loading**
+- Load the dataset `transfusion.data` using `pandas`.
+- Rename the columns for better readability.
+
+### 2. **Exploratory Data Analysis (EDA)**
+- Visualize the data using histograms and correlation plots.
+- Analyze class distribution to understand the balance between donors and non-donors.
+
+### 3. **Data Preprocessing**
+- Normalize or scale features if required.
+- Split the dataset into training and testing sets using `train_test_split`.
+
+### 4. **Model Building**
+- Train a **Logistic Regression** model as a baseline.
+- Optionally test other models like **Random Forest**, **SVM**, or **KNN** for comparison.
+
+### 5. **Model Evaluation**
+- Use evaluation metrics such as:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - ROC-AUC
+- Display results using a confusion matrix and classification report.
+
+### 6. **Visualization**
+- Plot ROC Curve and learning curves.
+- Use feature importance plots if applicable (e.g., for tree-based models).
+
+### 7. **Conclusion**
+- Summarize the best-performing model.
+- Discuss future steps like hyperparameter tuning or deep learning approaches.
+
+---
+
 ## 🛠️ How to Run
 
 1. Clone the repository:
